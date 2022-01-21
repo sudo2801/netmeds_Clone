@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Images/icon.png" type="image/x-icon" sizes="16x16">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/signup.css">
+    <title>Netmeds Sign In / Sign Up</title>
+</head>
+
+<body>
+    <nav class="bg-[rgb(50,174,177)] h-20 divide-y">
+        <div class="flex justify-around items-center p-5">
+            <!-- logoDiv -->
+            <div class="">
+                <a href="">
+                    <img src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg" alt="logo"
+                        srcset="">
+                </a>
+            </div>
+            <!-- Input -->
+            <div class="flex rounded-md bg-white h-12 w-[660px] justify-evenly items-center border-r-red-700">
+                <div class="">
+                    <p>Deliver to<span class="ml-4 text-[rgb(50,174,177)]">11002</span><i
+                            class="fas fa-chevron-down ml-4"></i></p>
+                </div>
+                <div class="w-1/2">
+                    <input class="h-8 w-full border-x-violet-100 focus:outline-none text-sm
+                    type=" text" placeholder="Search for medicine & wellness products....">
+
+                </div>
+            </div>
+            <div class="">
+                <a href="" class="flex ">
+                    <img src="https://www.netmeds.com/assets/gloryweb/images/icons/upload_rx.svg" alt="" srcset="">
+                    <span class="p-2">Upload rx</span>
+                </a>
+            </div>
+            <div class="">
+                <a href="" class="flex ">
+                    <img src="https://www.netmeds.com/assets/gloryweb/images/icons/cart_icon.svg" alt="" srcset="">
+                    <span class="p-2">Cart</span>
+                </a>
+            </div>
+            <div class="">
+                <a href="./signup.html" class="flex flex-row">
+                    <img src="https://www.netmeds.com/assets/gloryweb/images/icons/profile_icon.svg" alt="" srcset="">
+                    <span class="p-2">Sign in / sign up</span>
+                </a>
+            </div>
+
+        </div>
+    </nav>
+
+    <div id="mainSignUpCont">
+        <div class="imageDiv">
+            <img src="https://www.netmeds.com/images/cms/wysiwyg/cms/1588773798_sign-in-banner-new.png" />
+        </div>
+        <div class="detailsDiv">
+            <h2>Sign In / Sign Up</h2>
+            <p>
+                Sign up or Sign in to access your orders, special offers, <br />
+                health tips and more
+            </p>
+            <label for="phone">Phone Number</label>
+            <div class="phNoDiv">
+                <div>+91</div>
+                <input type="text" id="phone" placeholder="Enter your mobile no." />
+            </div>
+            <button onclick="sendOtp()" class="otpBtn">USE OTP</button>
+            <div class="und">
+                <p class="underline">OR</p>
+            </div>
+            <button onclick="sendPassword()" class="passwordBtn">
+                USE PASSWORD
+            </button>
+            <div class="socialMedia">
+                <button onclick="google()" class="googleBtn">Google</button>
+                <button onclick="facebook()" class="facebookBtn">Facebook</button>
+            </div>
+        </div>
+    </div>
+    <p class="terms">
+        By continuing you agree to our <span> Terms of service</span> <br />
+        and <span> Privacy & Legal Policy</span>.
+    </p>
+
+    <script src="/JS/itemsInCart.js"></script>
+    <script src="/JS/nav.js"></script>
+
+</body>
+
+</html>
