@@ -375,6 +375,8 @@ function popularity() {
  * !      Discount wise
  *========================**/
 
+
+
 function percent() {
     let disco = JSON.parse(localStorage.getItem("products1"));
     let disco1 = JSON.parse(localStorage.getItem("moreProducts"));
