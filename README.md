@@ -17,8 +17,10 @@ We don't own any of the content such as images or icons on this website, this wa
 # Tech Stack 
 * HTML
 * CSS
-* tallwind
+* Tailwind
 * JavaScript
+* DOM
+* ES6
 
 
 # Screenshots
