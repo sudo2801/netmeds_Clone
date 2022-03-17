@@ -22,7 +22,7 @@ We don't own any of the content such as images or icons on this website, this wa
 
 
 # Screenshots
-![Homepage](https://github.com/Prakharsvnit/Netmeds-clone/blob/master/Netmeds-clone-master/images/Screenshot%20from%202021-08-28%2012-37-19.png)
-![cart page](https://github.com/Prakharsvnit/Netmeds-clone/blob/master/Netmeds-clone-master/images/Screenshot%20from%202021-08-28%2012-30-19.png)
+![Homepage](https://user-images.githubusercontent.com/55179496/158882536-2600beab-10e2-4697-8609-aef17f9935e5.png)
+![cart page](https://user-images.githubusercontent.com/55179496/158882792-c4c2b06d-1c7f-4581-a4cf-3e491f98f93b.png)
 
 
